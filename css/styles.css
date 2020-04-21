@@ -1,0 +1,7 @@
+@import "reset.css";
+@import "status-bar.css";
+
+body {
+  min-width: 390px;
+  min-height: 660px;
+}

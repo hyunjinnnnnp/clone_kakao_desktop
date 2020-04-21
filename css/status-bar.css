@@ -1,0 +1,16 @@
+.status-bar {
+  display: flex;
+  position: fixed;
+  left: 70px;
+  height: 85px;
+  width: 100%;
+  background-color: red;
+}
+.status-bar_ {
+  display: block;
+}
+
+.status-bar .status-bar__column {
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,38 @@
+.friends {
+  position: absolute;
+  margin-left: 70px;
+  top: 85px;
+  width: 100%;
+}
+
+.friends__column {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 0px;
+}
+.friends .friends__title {
+  font-size: 13px;
+  font-weight: 600;
+  opacity: 0.5;
+  border-top: 1px solid #f7f7f7;
+  margin: 10px 0px;
+  padding: 10px 40px 0px 13px;
+}
+
+.friend__name {
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.friend__avatar {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 40%;
+  margin-left: 13px;
+}
+.l-avatar {
+  width: 48px;
+  height: 48px;
+}

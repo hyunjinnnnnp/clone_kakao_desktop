@@ -37,3 +37,14 @@
   margin: 20px 15px;
   padding: 5px;
 }
+
+.status-bar__text input:focus {
+  outline: none;
+}
+
+.status-bar__icon:hover {
+  cursor: pointer;
+}
+.header__header-column i:hover {
+  cursor: pointer;
+}

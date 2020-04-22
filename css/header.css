@@ -49,3 +49,15 @@
   position: fixed;
   bottom: 20px;
 }
+
+.header__icons-second a:hover {
+  color: pink;
+  opacity: 1;
+}
+.header__icons-second a:focus {
+  color: white;
+  opacity: 1;
+}
+.header__icons-third i:hover {
+  color: pink;
+}

@@ -1,0 +1,59 @@
+.chats__status-bar-wrapper {
+  position: fixed;
+  top: 0;
+
+  height: 85px;
+  width: 100%;
+  background-color: white;
+  z-index: 10;
+}
+
+.chats__status-bar {
+  display: flex;
+  flex-direction: column;
+  height: 85px;
+  padding: 10px 30px 10px 70px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #404040;
+}
+
+.chats__status-bar__column-division {
+  display: flex;
+}
+
+.header-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.chats-list {
+  /* 인덱스는 괜찮은데 채팅,더보기 페이지에서 width값이 늘어난다?? ㅠㅠ 
+  left:70px; 요게 문제였음... */
+  height: 1000vh;
+  position: absolute;
+  top: 85px;
+  width: 100%;
+}
+
+.chats__status-bar__column-division {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toomany {
+  display: flex;
+  margin-left: 20px;
+}
+.chats__status-bar__chat {
+  margin-right: 30px;
+}
+.chats__status-bar__column-icon {
+  margin-left: 20px;
+  font-size: 20px;
+  opacity: 0.5;
+}
+.chats__status-bar__icon2 {
+  font: 40px;
+}

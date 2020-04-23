@@ -1,0 +1,133 @@
+.chat-top-fix {
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  z-index: 15;
+
+  box-shadow: rgba(50, 50, 93, 0.25) -2px -2px 15px 0px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
+    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+}
+
+.chat__settings {
+  height: 90px;
+  width: 100%;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.backspace {
+  opacity: 0.7;
+}
+
+.chat__settings-friend {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.chatting-with {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.chat__settings-icons {
+  font-size: 10px;
+  opacity: 0.5;
+  margin-right: 10px;
+}
+.chatting-persons {
+  font-size: 9px;
+  opacity: 0.5;
+  margin-left: 10px;
+}
+
+/*채팅창 */
+
+.chat__messages {
+  position: absolute;
+  top: 85px;
+  width: 100%;
+  background-color: #bdd1dc;
+  height: 1000vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px;
+}
+.message-avatar {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 13px;
+}
+.message-timestamp {
+  font-size: 9px;
+  opacity: 0.5;
+}
+.time-r {
+  display: flex;
+  align-items: flex-end;
+}
+.time-s {
+  margin-right: 6px;
+}
+.message-friend-name {
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+.message-content {
+  font-size: 13px;
+  font-weight: 500;
+  max-width: 200px;
+  word-break: break-all;
+}
+.message-friend-column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.messages-received {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.messages-sent {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  align-items: flex-end;
+}
+
+.content-s {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
+    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+  display: block;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+}
+
+.content-r {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
+    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: block;
+  background-color: yellow;
+  border-top-left-radius: 0px;
+
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+
+  /*받은메세지 내용*/
+}

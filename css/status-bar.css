@@ -1,16 +1,26 @@
+/*
 .status-bar {
-  display: flex;
-  position: fixed;
-  z-index: 10;
-  flex-direction: column;
+
+  background-color: white;
+  z-index:10;
+  
+} */
+
+.status-bar-wrapper {
   height: 85px;
   width: 100%;
-  padding: 10px 20px 10px 70px;
+  display: flex;
+
+  flex-direction: column;
+  position: fixed;
+  z-index: 10;
+  padding: 10px 30px 10px 70px;
   font-size: 16px;
   font-weight: 600;
   color: #404040;
   background-color: white;
 }
+
 .status-bar__number {
   opacity: 0.5;
   font-weight: 500;
@@ -20,7 +30,7 @@
   display: flex;
   justify-content: space-between;
 }
-.status-bar__column .status-bar__number {
+.status-bar__number {
   margin-left: 20px;
 }
 .status-bar-half {

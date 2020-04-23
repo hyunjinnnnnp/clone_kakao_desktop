@@ -1,8 +1,10 @@
 .friends {
   position: absolute;
-  margin-left: 70px;
+  /*  margin-left: 70px;*/
   top: 85px;
   width: 100%;
+
+  padding-left: 70px;
 }
 
 .friends__column {

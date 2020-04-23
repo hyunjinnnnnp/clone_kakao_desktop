@@ -15,29 +15,38 @@
     <title>꺄똑왓숑!</title>
   </head>
 
-  <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span class="status-bar__friend">채팅</span>
-      </div>
-      <div class="status-bar__column">
-        <i class="fas fa-sort-down"></i>
-      </div>
-      <div class="status-bar__column">
-        <i class="fas fa-comment-medical"></i>
-      </div>
-      <div class="status-bar__column">
-        <input
-          type="text"
-          class="status-bar__search"
-          placeholder="채팅방 이름, 참여자 검색"
-        />
-        <icon class="status-bar__search">
-          <i class="fas fa-search"></i>
-        </icon>
+  <body class="chats__chats-body">
+    <div class="chats__status-bar-wrapper">
+      <div class="chats__status-bar">
+        <div class="chats__status-bar__column-division">
+         
+          <div class="toomany">
+          <div class="chats__status-bar__column">
+          <span class="chats__status-bar__chat">채팅     </span>
+          </div>
+   
+          <div class="chats__status-bar__column-icon">
+            <i class="fas fa-sort-down"></i>
+          </div>
+        </div>
+          <div class="chats__status-bar__icon2">
+          <i class="fas fa-comment-medical"></i>
+          </div>
+        </div>
+
+        
+           <input
+            type="text"
+            class="status-bar__search"
+            placeholder="채팅방 이름, 참여자 검색"
+          />
+        
+    
+    
       </div>
     </div>
 
+   <div class="header-wrapper">
     <div class="header">
       <div class="header__header-column">
         <span class="header__icons-first">
@@ -51,6 +60,7 @@
         </span>
       </div>
 
+      <div class="header__2and3">
       <nav class="nav">
         <ul class="header__header-column2">
           <li class="header__icons-second">
@@ -69,6 +79,8 @@
             </a>
           </li>
         </ul>
+      </nav>
+      
 
        <div class="header__header-column3-fix">
         <div class="header__header-column3">
@@ -84,20 +96,59 @@
           </div>
         </div>
        </div>
-      </nav>
-    </div>
-
-    <main class="chats">
-      <div class="chat">
-          <a href="chat.html">
-        <div class="chat__column">
-          <img src="images/woogi.jpeg" class="friend__avatar" />
-          <span class="chat__name">부기우기</span>
-          <span class="chat__content">하잇!!😎</span>
-          <span class="chat__timestamp">오후 11:04</span>
-        </div>
-      </a>
+      </div>
       
-    </main>
+
+    </header>
+    </div>
+  </div>
+
+  <main class="chats-list">
+    <div class="chat">
+        <a href="chat.html">
+
+      <div class="chat__column">
+
+        <div class="chat__column-division">
+        <img src="images/woogi.jpeg" class="friend__avatar" />
+       <div class="chat__colum-division2">
+        <span class="chat__name">부기우기</span>
+        <span class="chat__content">하잇!!😎</span>
+      </div>
+        </div>
+
+        <span class="chat__timestamp">오후 11:04</span>
+      </div>
+      <div class="chat__column">
+
+        <div class="chat__column-division">
+        <img src="images/woogi.jpeg" class="friend__avatar" />
+       <div class="chat__colum-division2">
+        <span class="chat__name">부기우기</span>
+        <span class="chat__content">하잇!!😎</span>
+      </div>
+        </div>
+
+        <span class="chat__timestamp">오후 11:04</span>
+      </div>
+      <div class="chat__column">
+
+        <div class="chat__column-division">
+        <img src="images/woogi.jpeg" class="friend__avatar" />
+       <div class="chat__colum-division2">
+        <span class="chat__name">부기우기</span>
+        <span class="chat__content">하잇!!😎</span>
+      </div>
+        </div>
+
+        <span class="chat__timestamp">오후 11:04</span>
+      </div>
+      
+
+
+    </a>
+    
+  </main>
+    
   </body>
 </html>
